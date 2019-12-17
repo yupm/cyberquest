@@ -2,10 +2,12 @@
 
 ## Program dependencies
 Install Vagrant https://www.vagrantup.com/downloads.html
+
 Install Virtualbox 
 
 ## Starting instructions
 Open terminal in stage1 folder (where the Vagrant file is)
+
 Run: vagrant up
 
 ## Stage 1 Scenarios/Suggestions
