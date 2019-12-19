@@ -1,6 +1,6 @@
 create_user() {
 
-    useradd grunt1
+    useradd -b /home grunt1
     echo "grunt1:makeitdouble" | sudo chpasswd
 
 }
