@@ -18,7 +18,7 @@ scene0() {
     create_scene
     echo "Find Team Rocket with this password preparefortrouble" > /home/grunt0/text.txt
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 1 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 0 has been setup correctly!"
 
 
 }
