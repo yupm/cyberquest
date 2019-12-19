@@ -25,5 +25,11 @@ scene1() {
 
 }
 
+main() {
+
 scene1
+
+}
+
+main
 exit 0
