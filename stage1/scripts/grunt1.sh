@@ -16,8 +16,8 @@ scene1() {
 
     create_user
     create_scene
-    touch -- "/home/grunt1/-Jessie was here"
-    echo "Hi Jessie was here, you won't get us if you don't makeitdouble"
+    touch -- "/home/grunt1/-Jessie\ was\ here"
+    echo "Hi Jessie was here, you won't get us if you don't makeitdouble" > "/home/grunt1/-Jessie\ was\ here"
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 1 has been setup correctly!"
 
