@@ -1,6 +1,6 @@
 create_user() {
 
-    useradd -b /home/grunt1 grunt1
+    adduser --disabled-password --gecos "" grunt1
     echo "grunt1:makeitdouble" | sudo chpasswd
 
 }
