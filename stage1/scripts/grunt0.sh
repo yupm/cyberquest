@@ -12,7 +12,7 @@ create_scene() {
 
 }
 
-scene1() {
+scene0() {
 
     create_user
     create_scene
