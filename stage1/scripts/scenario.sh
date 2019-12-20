@@ -11,6 +11,7 @@ scenarioCreate() {
     for f in $files
     do
         scriptPath="/scripts/stageSetup/$f"
+        chmod u+x $scriptPath
         "$scriptPath"
     done
     
