@@ -4,10 +4,12 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme3 /home/grunt2/readme
+    cp /shared/readme3 /home/grunt3/readme
 }
 
 scene1() {
+    # Find a word in a file of random words
+
     create_user
     create_scene
     cp /shared/dataGrunt3.txt /home/grunt3/data.txt
