@@ -8,6 +8,7 @@ create_scene() {
 }
 
 scene1() {
+    # Hidden file in directory 
 
     create_user
     create_scene
