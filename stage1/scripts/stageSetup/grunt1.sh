@@ -8,6 +8,7 @@ create_scene() {
 }
 
 scene1() {
+    # read the file that has a dash and spacing
 
     create_user
     create_scene
