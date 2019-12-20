@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme1 /home/grunt1/readme
+    cp /shared/readme6 /home/grunt6/readme
 }
 
 
@@ -13,10 +13,11 @@ scene1() {
 
     create_user
     create_scene
-    touch -- "/home/grunt1/-Jessie was here"
-    echo "JessieandJames" > "/home/grunt1/-Jessie was here"
+    # touch -- "/home/grunt1/-Jessie was here"
+    # echo "JessieandJames" > "/home/grunt1/-Jessie was here"
+    cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 1 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 6 Scenario 1 has been setup correctly!"
 }
 
 main() {
