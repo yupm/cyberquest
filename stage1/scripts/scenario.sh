@@ -6,25 +6,18 @@ apt_install_updates() {
   apt-get upgrade
 }
 
-passwd_create_grunt0() {
-    adduser grunt0 
-    echo "grunt0:preparefortrouble" | sudo chpasswd
-}
-
-create_grunt0_scenario() {
-    cp /shared/readme /home/grunt0/readme
-}
-
-scenario1(){
-    #apt_install_updates
-    passwd_create_grunt0
-    create_grunt0_scenario
-
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 1 has been setup correctly!"
+scenarioCreate() { 
+    files=$(ls /scripts/stageSetup/)
+    for f in $files
+    do
+        scriptPath="/scripts/stageSetup/$f"
+        "$scriptPath"
+    done
+    
 }
 
 main() {
-    scenario1
+    scenarioCreate  
 }
 
 main
