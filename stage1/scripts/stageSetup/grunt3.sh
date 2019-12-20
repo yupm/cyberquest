@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt3
-    echo "grunt3:SurrenderNow" | sudo chpasswd
+    echo "grunt3:Surrender_Now" | sudo chpasswd
 }
 
 create_scene() {
@@ -14,7 +14,7 @@ scene1() {
     create_scene
     cp /shared/dataGrunt3.txt /home/grunt3/data.txt
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 2 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 3 has been setup correctly!"
 }
 
 main() {

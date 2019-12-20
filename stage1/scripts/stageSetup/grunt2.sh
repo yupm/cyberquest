@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt2
-    echo "grunt2:JessieandJames" | sudo chpasswd
+    echo "grunt2:Jessie_and_James" | sudo chpasswd
 }
 
 create_scene() {
@@ -14,7 +14,7 @@ scene1() {
     create_scene
     mkdir /home/grunt2/tryHere
     touch "/home/grunt2/.ImHere"
-    echo "Just SurrenderNow" > "/home/grunt2/.ImHere"
+    echo "Just Surrender_Now" > "/home/grunt2/.ImHere"
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 2 has been setup correctly!"
 }

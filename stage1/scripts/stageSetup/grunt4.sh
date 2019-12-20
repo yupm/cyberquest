@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt4
-    echo "grunt4:speedOfLight" | sudo chpasswd
+    echo "grunt4:speed_Of_Light" | sudo chpasswd
 }
 
 create_scene() {
@@ -17,7 +17,7 @@ scene1() {
     chown grunt4 /tmp/isThisIt/.imhere
     chown grunt4 /tmp/isThisIt
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 2 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 4 has been setup correctly!"
 }
 
 main() {
