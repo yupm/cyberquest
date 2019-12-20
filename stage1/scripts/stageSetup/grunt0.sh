@@ -9,6 +9,8 @@ create_scene() {
 }
 
 scene0() {
+    # cat the file
+
     create_user
     create_scene
     echo "Hi Jessie was here, you won't get us if you don't makeItDouble" > /home/grunt0/text.txt
