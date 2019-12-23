@@ -1,5 +1,5 @@
 create_user() {
-    adduser --disabled-password --gecos "" grunt6
+    adduser --disabled-password --gecos "" grunt7
     echo "grunt7:{OH_THANKS_MEOWTH}" | sudo chpasswd
 }
 
@@ -14,7 +14,11 @@ scene1() {
     create_user
     create_scene
 
-    echo "[$(date +%H:%M:%S)]: Stage 6 Scenario 1 has been setup correctly!"
+    cp /shared/dataGrunt7.jpg /home/grunt7/CatchMe.jpg
+    sudo chown grunt7:grunt7 CatchMe.jpg
+    sudo chmod 775 CatchMe.jpg
+     
+    echo "[$(date +%H:%M:%S)]: Stage 7 Scenario 1 has been setup correctly!"
 }
 
 main() {
