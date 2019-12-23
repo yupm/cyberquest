@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt1
-    echo "grunt1:make_It_Double" | sudo chpasswd
+    echo "grunt1:{MAKE_IT_DOUBLE}" | sudo chpasswd
 }
 
 create_scene() {

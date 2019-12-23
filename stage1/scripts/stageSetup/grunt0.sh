@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt0
-    echo "grunt0:prepare_for_trouble" | sudo chpasswd
+    echo "grunt0:{PREPARE_FOR_TROUBLE}" | sudo chpasswd
 }
 
 

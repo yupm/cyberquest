@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt4
-    echo "grunt4:speed_Of_Light" | sudo chpasswd
+    echo "grunt4:{SPEED_0F_LIGHT}" | sudo chpasswd
 }
 
 create_scene() {
