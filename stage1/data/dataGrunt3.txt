@@ -253,7 +253,7 @@
     continental
     monopoly
     possibility
-    rocket  speed_Of_Light
+    rocket  {SPEED_OF_LIGHT}
     circulation
     separation
     parameter
