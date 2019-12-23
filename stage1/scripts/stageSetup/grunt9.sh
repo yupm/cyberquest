@@ -1,4 +1,4 @@
-create_user() 
+create_user() {
     adduser --disabled-password --gecos "" grunt9
     echo "grunt9:{Im_ASH_KETCHUP}" | sudo chpasswd
 }

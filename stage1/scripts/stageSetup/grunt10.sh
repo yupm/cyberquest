@@ -1,4 +1,4 @@
-create_user() 
+create_user() {
     adduser --disabled-password --gecos "" grunt10
     echo "grunt10:{TRAIL_OF_FAILURE}" | sudo chpasswd
 }
