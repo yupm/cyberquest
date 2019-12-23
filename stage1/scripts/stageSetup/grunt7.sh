@@ -14,7 +14,7 @@ scene1() {
     create_user
     create_scene
 
-    cp /shared/dataGrunt7.jpg /home/grunt6/CatchMe.jpg
+    cp /shared/dataGrunt7.jpg /home/grunt7/CatchMe.jpg
     sudo chown grunt7:grunt7 CatchMe.jpg
     sudo chmod 775 CatchMe.jpg
      
