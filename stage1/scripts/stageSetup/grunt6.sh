@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt6
-    echo "grunt6:makeItDouble" | sudo chpasswd
+    echo "grunt6:Its_A_Snorlax" | sudo chpasswd
 }
 
 create_scene() {
@@ -16,7 +16,9 @@ scene1() {
     # touch -- "/home/grunt1/-Jessie was here"
     # echo "JessieandJames" > "/home/grunt1/-Jessie was here"
     cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
-
+    sudo chown grunt6:grunt6 wobbuffet.txt
+    sudo chmod 775 wobbuffet.txt
+     
     echo "[$(date +%H:%M:%S)]: Stage 6 Scenario 1 has been setup correctly!"
 }
 
