@@ -1,6 +1,6 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt3
-    echo "grunt3:Surrender_Now" | sudo chpasswd
+    echo "grunt3:{SURRENDER_NOW}" | sudo chpasswd
 }
 
 create_scene() {
