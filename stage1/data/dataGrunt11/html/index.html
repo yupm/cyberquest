@@ -33,6 +33,14 @@ img{
 }
 
 </style>
+
+<script type = "text/javascript">
+
+    function writeCookie(){    
+        document.cookie = "user" + "grunt11";    
+    }
+</script>
+
 </head>
 <body>
 
@@ -44,7 +52,7 @@ img{
 
 <div class="meme">
 
-    <input type = "button" class= "passwordButton" onclick="window.location.href = 'redirect.html';" value = "Get Password" onclick = "ReadCookie()"/>
+    <input type = "button" class= "passwordButton" onclick="window.location.href = 'redirect.html';" value = "Get Password" onclick = "writeCookie()"/>
 
 
 </div>
