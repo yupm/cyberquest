@@ -17,7 +17,7 @@ scene1() {
     #sudo a2ensite grunt9.conf
     #sudo service apache2 reload
     
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 10 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 11 has been setup correctly!"
 }
 
 main() {
