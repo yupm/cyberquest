@@ -1,10 +1,8 @@
-username = $(whoami)
 
-cd /var/$username
+cd /var/scripts/grunt13
 
-for f in *.sh; do
-    bash "$f" -H || break/
-
+for file in *.sh; do
+    bash "$file" -H || break
+    rm -f $file
 done
 
-sudo rm -R /var/$username/*
