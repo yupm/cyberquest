@@ -1,24 +1,14 @@
-var allcookies = document.cookie;
-    document.write ("All Cookies : " + allcookies);
-    cookiearray = allcookies.split(";");
 
-    for(var i=0; i<cookiearray.length; i++){
+var user = document.cookie.split(';');
 
-        name = cookiearray[i].split('=')[0];
-        value = cookiearray[i].split('=')[1];
-        
+if (user == "grunt13"){
 
-    }
+    window.location = "grunt12Password.html";
 
-    if (value == "grunt13") {
+}
 
-        window.location = "grunt12Password.html";
+else{
 
-    }
+    window.location = "nope.html";
 
-    else{
-
-        window.location = "nope.html"
-
-    }
-
+}
