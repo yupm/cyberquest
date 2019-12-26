@@ -1,0 +1,30 @@
+create_user() {
+    adduser --disabled-password --gecos "" grunt12
+    echo "grunt12:{PIKACHU_AND_ASH}" | sudo chpasswd
+}
+
+create_scene() {
+    cp /shared/readme12 /home/grunt12/readme
+}
+
+scene1() {
+    create_user
+    create_scene
+    sudo mkdir /var/grunt13/
+    sudo cp /shared/dataGrunt12/gruntRun13.sh
+    sudo cp /shared/dataGrunt12/crontab /etc/crontab
+
+    adduser --disabled-password --gecos "" grunt13
+    echo "grunt13:{WE_WANT_PIKACHU}" | sudo chpasswd
+
+    sudo chown grunt13:grunt13 /var/grunt13/
+    
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 12 has been setup correctly!"
+}
+
+main() {
+    scene1
+}
+
+main
+exit 0
