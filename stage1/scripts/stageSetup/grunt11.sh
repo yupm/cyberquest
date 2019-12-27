@@ -10,7 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo mkdir /var/www/html/grunt11/
+    sudo mkdir /var/www/html/grunt11
     sudo cp -R /shared/dataGrunt11/html/* /var/www/html/grunt11/
     
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 11 has been setup correctly!"

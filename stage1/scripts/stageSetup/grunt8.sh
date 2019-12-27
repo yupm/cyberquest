@@ -18,7 +18,7 @@ scene1() {
     sudo chown grunt8:grunt8 CatchMe.jpg
     sudo chmod 775 CatchMe.jpg
     
-    echo "[$(date +%H:%M:%S)]: Stage 7 Scenario 1 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 8 has been setup correctly!"
 }
 
 main() {
