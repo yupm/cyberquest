@@ -10,10 +10,11 @@ create_scene() {
 scene1() {
     create_user
     create_scene
+    sudo cp /shared/dataGrunt18.png /home/grunt18/image.png
 
     
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 17 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 18 has been setup correctly!"
 }
 
 main() {
