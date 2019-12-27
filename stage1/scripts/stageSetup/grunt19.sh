@@ -10,7 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo cp /shared/dataGrunt18.png /home/grunt18/image.png
+    sudo cp /shared/dataGrunt19.txt /audio/grunt/data.txt
 
     
 
