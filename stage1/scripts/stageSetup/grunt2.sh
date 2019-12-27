@@ -14,7 +14,7 @@ scene1() {
     create_scene
     mkdir /home/grunt2/tryHere
     touch "/home/grunt2/.ImHere"
-    echo "Just Surrender_Now" > "/home/grunt2/.ImHere"
+    echo "{SURRENDER_NOW}" > "/home/grunt2/.ImHere"
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 2 has been setup correctly!"
 }
