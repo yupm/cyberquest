@@ -10,7 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo mkdir /var/www/html/grunt10/
+    sudo mkdir /var/www/html/grunt10
     sudo cp -R /shared/dataGrunt10/html/* /var/www/html/grunt10/
 
     #sudo cp /shared/grunt9.conf /etc/apache2/sites-available/
