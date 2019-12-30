@@ -12,7 +12,8 @@ scene1() {
     create_scene
     sudo mkdir /var/grunt13/
     sudo cp /shared/dataGrunt12/gruntRun13.sh /var/grunt13/
-    sudo cp /shared/dataGrunt12/crontab /etc/crontab
+    (crontab -l 2>/dev/null; echo "* * * * *   grunt13 /var/grunt13/gruntRun13.sh > /dev/null") | crontab -
+    #sudo cp /shared/dataGrunt12/crontab /etc/crontab
     sudo mkdir /var/scripts/grunt13
     sudo mkdir /etc/grunt_password/
 
@@ -38,3 +39,6 @@ main() {
 
 main
 exit 0
+
+
+
