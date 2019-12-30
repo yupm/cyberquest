@@ -13,7 +13,7 @@ scene1() {
     create_user
     create_scene
     touch -- "/home/grunt1/-Jessie was here"
-    echo "Jessie_and_James" > "/home/grunt1/-Jessie was here"
+    echo "{JESSIE_AND_JAMES}" > "/home/grunt1/-Jessie was here"
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 1 has been setup correctly!"
 }
