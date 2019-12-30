@@ -10,12 +10,12 @@ create_scene() {
 scene1() {
     create_user
     create_scene
+    sudo apt install apache2
+    sudo service apache2 start
     sudo mkdir /var/www/html/grunt10
     sudo cp -R /shared/dataGrunt10/html/* /var/www/html/grunt10/
+    sudo service apache2 restart
 
-    #sudo cp /shared/grunt9.conf /etc/apache2/sites-available/
-    #sudo a2ensite grunt9.conf
-    #sudo service apache2 reload
     
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 10 has been setup correctly!"
 }

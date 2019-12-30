@@ -1,5 +1,5 @@
 create_user() {
-    adduser --disabled-password --gecos "" grunt17
+    adduser --disabled-password --gecos "" grunt13
     echo "grunt17:{WE_WANT_PIKACHU}" | sudo chpasswd
 }
 
@@ -10,9 +10,12 @@ create_scene() {
 scene1() {
     create_user
     create_scene
+    sudo cp /shared/grunt13Image.png /home/grunt13/image.png
+    sudo cp /shared/grunt13Cipher.txt /home/grunt13/cipher.txt
+    sudo cp /shared/grunt13PlainText.txt /home/grunt13/plaintext.txt
     
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 17 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 13 has been setup correctly!"
 }
 
 main() {
