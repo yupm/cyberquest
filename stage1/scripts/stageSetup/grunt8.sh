@@ -18,7 +18,7 @@ scene1() {
     create_user
     create_scene
 
-    sudo python3 /etc/grunt8/grunt8_service.py   
+    python3 /etc/grunt8/grunt8_service.py &
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 8 has been setup correctly!"
 }
