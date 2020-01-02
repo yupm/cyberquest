@@ -11,7 +11,7 @@ scene1() {
     create_user
     create_scene
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 19 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 21 has been setup correctly!"
 }
 
 main() {
