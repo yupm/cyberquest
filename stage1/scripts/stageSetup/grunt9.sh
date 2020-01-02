@@ -1,11 +1,11 @@
 create_user() {
     adduser --disabled-password --gecos "" grunt9
-    echo "grunt9:{Im_ASH_KETCHUP}" | sudo chpasswd
+    echo "grunt9:{IM_ASH_KETCHUP}" | sudo chpasswd
 }
 
 create_scene() {
     cp /shared/readme9 /home/grunt9/readme
-    echo "{Im_ASH_KETCHUP}" > /tmp/grunt9_pass.txt
+    echo "{IM_ASH_KETCHUP}" > /tmp/grunt9_pass.txt
     #Creates the ssh key
     sshpass -f /tmp/grunt9_pass.txt ssh-copy-id -i /etc/grunt9/.ssh/grunt9.key.pub grunt9@localhost
     rm /tmp/grunt9_pass.txt
