@@ -9,7 +9,9 @@ create_scene() {
     sudo mkdir /home/grunt9/.ssh
     sudo cat /etc/grunt9/.ssh/grunt9.key.pub > /home/grunt9/.ssh/authorized_keys
     sudo chmod 600 /home/grunt9/.ssh/authorized_keys
-    sudo chmod 700 /home/grunt9/.ssh    
+    sudo chmod 700 /home/grunt9/.ssh   
+    sudo chown grunt9:grunt9 /home/grunt9/.ssh
+    sudo chown grunt9:grunt9 /home/grunt9/.ssh/authorized_keys 
 }
 
 scene1() {
