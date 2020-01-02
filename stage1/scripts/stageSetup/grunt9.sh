@@ -5,10 +5,13 @@ create_user() {
 
 create_scene() {
     cp /shared/readme9 /home/grunt9/readme
-    echo "{IM_ASH_KETCHUP}" > /tmp/grunt9_pass.txt
-    #Creates the ssh key
-    sshpass -f /tmp/grunt9_pass.txt ssh-copy-id -i /etc/grunt9/.ssh/grunt9.key.pub grunt9@localhost
-    rm /tmp/grunt9_pass.txt
+    
+    sudo mkdir /home/grunt9/.ssh
+    sudo cat /etc/grunt9/.ssh/grunt9.key.pub > /home/grunt9/.ssh/authorized_keys
+    sudo chmod 600 /home/grunt9/.ssh/authorized_keys
+    sudo chmod 700 /home/grunt9/.ssh   
+    sudo chown grunt9:grunt9 /home/grunt9/.ssh
+    sudo chown grunt9:grunt9 /home/grunt9/.ssh/authorized_keys 
 }
 
 scene1() {
