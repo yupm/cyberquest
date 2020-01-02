@@ -10,7 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo cp /shared/dataGrunt17.txt /home/grunt17/data.txt
+    cp /shared/dataGrunt17.txt /home/grunt17/data.txt
 
     
 

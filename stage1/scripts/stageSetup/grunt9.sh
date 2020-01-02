@@ -8,14 +8,14 @@ create_scene() {
     echo "{IM_ASH_KETCHUP}" > /tmp/grunt9_pass.txt
     #Creates the ssh key
     sshpass -f /tmp/grunt9_pass.txt ssh-copy-id -i /etc/grunt9/.ssh/grunt9.key.pub grunt9@localhost
-    sudo rm /tmp/grunt9_pass.txt
+    rm /tmp/grunt9_pass.txt
 }
 
 scene1() {
     create_user
     create_scene
-    sudo mkdir /var/www/html/grunt9
-    sudo cp -R /shared/dataGrunt9/html/* /var/www/html/grunt9/
+    mkdir /var/www/html/grunt9
+    cp -R /shared/dataGrunt9/html/* /var/www/html/grunt9/
 
     #sudo cp /shared/grunt9.conf /etc/apache2/sites-available/
     #sudo a2ensite grunt9.conf
