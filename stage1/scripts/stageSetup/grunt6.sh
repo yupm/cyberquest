@@ -5,6 +5,10 @@ create_user() {
 
 create_scene() {
     cp /shared/readme6 /home/grunt6/readme
+
+    cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
+    sudo chown grunt6:grunt6 /home/grunt6/wobbuffet.txt
+    sudo chmod 775 /home/grunt6/wobbuffet.txt
 }
 
 
@@ -13,11 +17,6 @@ scene1() {
 
     create_user
     create_scene
-    # touch -- "/home/grunt1/-Jessie was here"
-    # echo "JessieandJames" > "/home/grunt1/-Jessie was here"
-    cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
-    sudo chown grunt6:grunt6 /home/grunt6/wobbuffet.txt
-    sudo chmod 775 /home/grunt6/wobbuffet.txt
      
     echo "[$(date +%H:%M:%S)]: Stage 6 Scenario 1 has been setup correctly!"
 }
