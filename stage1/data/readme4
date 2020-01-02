@@ -1,0 +1,4 @@
+There is a hidden file, somewhere in the file system. It is owned by user grunt4 and it is 45 bytes big.
+
+Tools:
+cat, ls, cd, grep, find, size, user

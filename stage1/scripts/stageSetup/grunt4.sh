@@ -12,10 +12,12 @@ scene1() {
 
     create_user
     create_scene
-    mkdir /tmp/isThisIt
-    cp /shared/dataGrunt4.txt /tmp/isThisIt/.imhere
-    chown grunt4 /tmp/isThisIt/.imhere
-    chown grunt4 /tmp/isThisIt
+    sudo mkdir /tmp/isThisIt
+    sudo cp /shared/dataGrunt4.txt /tmp/isThisIt/.imhere
+    sudo chown grunt4 /tmp/isThisIt/.imhere
+    sudo chown grunt4 /tmp/isThisIt
+    sudo chmod 774 /tmp/isThisIt/.imhere
+    sudo chmod 774 /tmp/isThisIt
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 4 has been setup correctly!"
 }
