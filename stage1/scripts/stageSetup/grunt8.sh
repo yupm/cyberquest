@@ -1,3 +1,4 @@
+
 create_user() {
     adduser --disabled-password --gecos "" grunt8
     echo "grunt8:{PROTECT_WORLD_PEACE}" | sudo chpasswd
@@ -18,7 +19,7 @@ scene1() {
     create_user
     create_scene
 
-    sudo python3 /etc/grunt8/grunt8_service.py & 
+    python3 /etc/grunt8/grunt8_service.py & 
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 8 has been setup correctly!"
 }

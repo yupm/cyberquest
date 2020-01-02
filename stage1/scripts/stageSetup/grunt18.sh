@@ -11,9 +11,8 @@ scene1() {
     #Use an image manipulation service to adjust the contrast and brightness to see the password
     create_user
     create_scene
-    sudo cp /shared/dataGrunt18.png /home/grunt18/image.png
+    cp /shared/dataGrunt18.png /home/grunt18/image.png
 
-    
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 18 has been setup correctly!"
 }

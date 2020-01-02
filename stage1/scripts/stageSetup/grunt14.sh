@@ -5,6 +5,7 @@ create_user() {
 
 create_scene() {
     cp /shared/readme14 /home/grunt14/readme
+    cp /shared/dataGrunt14.pcap /home/grunt14/convo.pcap
 }
 
 scene1() {

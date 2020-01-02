@@ -13,11 +13,9 @@ scene1() {
 
     create_user
     create_scene
-    sudo apt install apache2
-    sudo service apache2 start
-    sudo mkdir /var/www/html/grunt10
-    sudo cp -R /shared/dataGrunt10/html/* /var/www/html/grunt10/
-    sudo service apache2 restart
+    service apache2 start
+    mkdir /var/www/html/grunt10
+    cp -R /shared/dataGrunt10/html/* /var/www/html/grunt10/
 
     
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 10 has been setup correctly!"

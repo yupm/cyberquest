@@ -11,7 +11,7 @@ scene1() {
     #use the coordinates in google maps and reference the names to the website for the password
     create_user
     create_scene
-    sudo cp /shared/dataGrunt17.txt /home/grunt17/data.txt
+    cp /shared/dataGrunt17.txt /home/grunt17/data.txt
 
     
 
