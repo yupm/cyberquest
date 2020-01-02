@@ -8,6 +8,7 @@ create_scene() {
 }
 
 scene1() {
+    #Use an image manipulation service to adjust the contrast and brightness to see the password
     create_user
     create_scene
     sudo cp /shared/dataGrunt18.png /home/grunt18/image.png

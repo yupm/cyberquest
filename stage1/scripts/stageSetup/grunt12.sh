@@ -8,6 +8,9 @@ create_scene() {
 }
 
 scene1() {
+    #create a bash script to run in /var/scripts/grunt13, create a tmp file with an empty text file for the password to echo in.
+    #Let the Cronjob run
+
     create_user
     create_scene
     sudo mkdir /var/grunt13/

@@ -8,6 +8,7 @@ create_scene() {
 }
 
 scene1() {
+    # Convert the png to txt and base64 decode. Download the video link and reverse it
     create_user
     create_scene
     sudo mkdir /audio/grunt/

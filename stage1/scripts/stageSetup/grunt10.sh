@@ -8,6 +8,9 @@ create_scene() {
 }
 
 scene1() {
+    #Please change the URL of readme10 according to your website
+    #Password in html's code
+
     create_user
     create_scene
     sudo apt install apache2
