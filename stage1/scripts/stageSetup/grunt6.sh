@@ -16,8 +16,8 @@ scene1() {
     # touch -- "/home/grunt1/-Jessie was here"
     # echo "JessieandJames" > "/home/grunt1/-Jessie was here"
     cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
-    sudo chown grunt6:grunt6 /home/grunt6/wobbuffet.txt
-    sudo chmod 775 /home/grunt6/wobbuffet.txt
+    chown grunt6:grunt6 /home/grunt6/wobbuffet.txt
+    chmod 775 /home/grunt6/wobbuffet.txt
      
     echo "[$(date +%H:%M:%S)]: Stage 6 Scenario 1 has been setup correctly!"
 }

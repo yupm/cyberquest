@@ -7,8 +7,8 @@ create_scene() {
     cp /shared/readme7 /home/grunt7/readme
 
     cp /shared/dataGrunt7.jpg /home/grunt7/CatchMe.jpg
-    sudo chown grunt7:grunt7 /home/grunt7/CatchMe.jpg
-    sudo chmod 775 /home/grunt7/CatchMe.jpg
+    chown grunt7:grunt7 /home/grunt7/CatchMe.jpg
+    chmod 775 /home/grunt7/CatchMe.jpg
 }
 
 

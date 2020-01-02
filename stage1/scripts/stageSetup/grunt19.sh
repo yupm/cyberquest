@@ -10,11 +10,11 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo cp /shared/grunt19Encoded.png /home/grunt19/lookHere.png
-    sudo cp /shared/dataGrunt19.txt /audio/grunt/data.txt
+    cp /shared/grunt19Encoded.png /home/grunt19/lookHere.png
+    mkdir -p /audio/grunt/
+    cp /shared/dataGrunt19.txt /audio/grunt/data.txt
 
     
-
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 19 has been setup correctly!"
 }
 

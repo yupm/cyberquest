@@ -10,7 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
-    sudo cp /shared/dataGrunt20.txt /home/grunt20/lastOne.txt
+    cp /shared/dataGrunt20.txt /home/grunt20/lastOne.txt
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 19 has been setup correctly!"
 }
