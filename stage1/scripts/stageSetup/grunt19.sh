@@ -10,6 +10,7 @@ create_scene() {
 scene1() {
     create_user
     create_scene
+
     cp /shared/grunt19Encoded.png /home/grunt19/lookHere.png
     mkdir -p /audio/grunt/
     cp /shared/dataGrunt19.txt /audio/grunt/data.txt

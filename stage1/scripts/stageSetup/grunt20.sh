@@ -12,7 +12,7 @@ scene1() {
     create_scene
     cp /shared/dataGrunt20.txt /home/grunt20/lastOne.txt
 
-    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 19 has been setup correctly!"
+    echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 20 has been setup correctly!"
 }
 
 main() {

@@ -7,7 +7,7 @@ apt_install_updates() {
 }
 
 scenarioCreate() { 
-    files=$(ls /scripts/stageSetup/)
+    files=$(ls /scripts/stageSetup/ | sort -V)
     for f in $files
     do
         scriptPath="/scripts/stageSetup/$f"

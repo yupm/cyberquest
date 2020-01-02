@@ -8,6 +8,8 @@ create_scene() {
 }
 
 scene1() {
+    #File is encoded with base64 and ROT13
+
     create_user
     create_scene
     cp /shared/dataGrunt5.txt /home/grunt5/.data.txt
