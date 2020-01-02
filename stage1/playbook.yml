@@ -9,5 +9,15 @@
   - name: install python3
     apt: name=python3 update_cache=yes state=latest
 
-  - name: install sshpass
-    apt: name=sshpass update_cache=yes state=latest
+  # - name: install sshpass
+  #   apt: name=sshpass update_cache=yes state=latest
+
+  - name: install 7zip
+    apt: name=p7zip-full update_cache=yes state=latest
+
+  - name: install binwalk
+    apt: name=binwalk update_cache=yes state=latest
+
+  - name: install nmap
+    apt: name=nmap update_cache=yes state=latest
+    
