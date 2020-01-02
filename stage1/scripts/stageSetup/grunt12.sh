@@ -28,9 +28,9 @@ scene1() {
     chown grunt13:grunt13 /var/grunt13/
     chown grunt13:grunt13 /var/scripts/grunt13/
     chown grunt13:grunt13 /var/grunt13/gruntRun13.sh
-    chmod 774 /var/grunt13/
-    chmod 774 /var/scripts/grunt13/
-    chmod 774 /var/grunt13/gruntRun13.sh
+    chmod 775 /var/grunt13/
+    chmod 775 /var/scripts/grunt13/
+    chmod 775 /var/grunt13/gruntRun13.sh
     chmod 440 /etc/grunt_password/grunt13.txt
     
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 12 has been setup correctly!"

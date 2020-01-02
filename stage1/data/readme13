@@ -1,6 +1,7 @@
+
 plaintext.txt has been shifted to form cipher.txt. The same shifting has also encoded password.txt.
 
-Figure out the shifting to get a new set of cipher text, that has unfortunately been encoded with another method again
+Figure out the shifting to get a new set of cipher text, that has unfortunately been encoded with another method again.
 
 Tools:
 cat, your math skills
