@@ -6,6 +6,11 @@ apt_install_updates() {
   apt-get upgrade
 }
 
+harden_box(){
+    echo "Hardening box permissions"
+    sed -i 's/DIR_MODE=0755/DIR_MODE=0700/' /etc/adduser.conf
+}
+
 scenarioCreate() { 
     files=$(ls /scripts/stageSetup/ | sort -V)
     for f in $files
@@ -18,6 +23,7 @@ scenarioCreate() {
 }
 
 main() {
+    harden_box
     scenarioCreate  
 }
 
