@@ -22,7 +22,7 @@ PermissionChanges() {
       echo "[$(date +%H:%M:%S)]: Changing home directories permissions..."
       sudo chown root:root /home/*
       echo "[$(date +%H:%M:%S)]: Changing tmp permissions..."
-      sudo chmod 773 /tmp
+      sudo chmod 2773 /tmp
 }
 
 main() {
