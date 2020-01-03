@@ -5,7 +5,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme8 /home/grunt8/readme
+    cp /shared/readmeFiles/readme8 /home/grunt8/readme
     
     mkdir /etc/grunt8
     cp /shared/dataGrunt8.py /etc/grunt8/grunt8_service.py

@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme7 /home/grunt7/readme
+    cp /shared/readmeFiles/readme7 /home/grunt7/readme
 
     cp /shared/dataGrunt7.jpg /home/grunt7/CatchMe.jpg
     chown grunt7:grunt7 /home/grunt7/CatchMe.jpg

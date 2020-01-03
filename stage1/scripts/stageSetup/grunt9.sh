@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme9 /home/grunt9/readme
+    cp /shared/readmeFiles/readme9 /home/grunt9/readme
     
     sudo mkdir /home/grunt9/.ssh
     sudo cat /etc/grunt9/.ssh/grunt9.key.pub > /home/grunt9/.ssh/authorized_keys

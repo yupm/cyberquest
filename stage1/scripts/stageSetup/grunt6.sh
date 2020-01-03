@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme6 /home/grunt6/readme
+    cp /shared/readmeFiles/readme6 /home/grunt6/readme
 
     cp /shared/dataGrunt6.txt /home/grunt6/wobbuffet.txt
     sudo chown grunt6:grunt6 /home/grunt6/wobbuffet.txt

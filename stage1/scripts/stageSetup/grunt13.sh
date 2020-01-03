@@ -4,13 +4,13 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme13 /home/grunt13/readme
+    cp /shared/readmeFiles/readme13 /home/grunt13/readme
 }
 
 scene1() {
     #Find out the caesar cipher rotation number, using cipher and plaintext. Then use the rotation against password.txt and run the new cipher against the vignere cipher for the password.
 
-    #create_user
+    create_user
     create_scene
     cp /shared/grunt13Image.png /home/grunt13/image.png
     cp /shared/grunt13Cipher.txt /home/grunt13/cipher.txt

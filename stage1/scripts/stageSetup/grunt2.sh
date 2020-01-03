@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme2 /home/grunt2/readme
+    cp /shared/readmeFiles/readme2 /home/grunt2/readme
 }
 
 scene1() {
