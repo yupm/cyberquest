@@ -22,8 +22,11 @@ try:
         with conn:
             #print('Connected by', addr)
             while True:
-                data = conn.recv(BUFFER_SIZE)
-                if data:
+                try:
+                    data = conn.recv(BUFFER_SIZE)
+                    if not data:
+                        break
+
                     ans = data.decode("UTF-8")
                     ans = ans.strip('\n')
                  
@@ -41,8 +44,11 @@ try:
                                 if not l:
                                     f.close()
                                     break
-                break
-                
+                    break
+                    
+                except SocketError as e:
+                    break
+
 except KeyboardInterrupt:
     print("Closing Connection")
     s.close()
