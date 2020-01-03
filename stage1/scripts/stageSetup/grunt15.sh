@@ -4,7 +4,8 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readmeFiles/readme15 /home/grunt15/readme
+    cp /shared/readmeFiles/readme15 /home/grunt15/readme15
+    cp /shared/readmeFiles/readme16.1 /home/grunt15/readme16.1
 
     cp /shared/dataGrunt15.wav /home/grunt15/ditto.wav
 }

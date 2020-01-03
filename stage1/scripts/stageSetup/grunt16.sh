@@ -4,7 +4,7 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readmeFiles/readme16 /home/grunt16/readme
+    cp /shared/readmeFiles/readme16.2 /home/grunt16/readme16.2
 
     cp /shared/dataGrunt16.txt /home/grunt16/pika-is-here.txt
 
