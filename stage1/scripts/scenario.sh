@@ -27,6 +27,7 @@ PermissionChanges() {
 
 main() {
     scenarioCreate  
+    PermissionChanges
 }
 
 main
