@@ -3,7 +3,7 @@
 import socket
 import sys
 
-HOST = '0.0.0.0'  # Standard loopback interface address (localhost)
+HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
 PORT = 30000        # Port to listen on 
 GRUNT8 = "{PROTECT_WORLD_PEACE}"
 
@@ -22,24 +22,25 @@ try:
         with conn:
             #print('Connected by', addr)
             while True:
-                data = conn.recv(1024)
-                ans = data.decode("UTF-8")
-                ans = ans.strip('\n')
-             
-                if ans != GRUNT8:
-                    conn.sendall(b"Wrong! Please try again!\n")
-                else:
-                    conn.sendall(b"\nBingo! Gotta catch 'em all!")
-                    conn.sendall(b"\n")
+                data = conn.recv(BUFFER_SIZE)
+                if data:
+                    ans = data.decode("UTF-8")
+                    ans = ans.strip('\n')
+                 
+                    if ans != GRUNT8:
+                        conn.sendall(b"Wrong! Please try again!\n")
+                    else:
+                        conn.sendall(b"\nBingo! Gotta catch 'em all!")
+                        conn.sendall(b"\n")
 
-                    with open(GRUNT9_KEYFILE, 'rb') as f:
-                        l = f.read(BUFFER_SIZE)
-                        while(l):
-                            conn.sendall(l)
+                        with open(GRUNT9_KEYFILE, 'rb') as f:
                             l = f.read(BUFFER_SIZE)
-                            if not l:
-                                f.close()
-                                break
+                            while(l):
+                                conn.sendall(l)
+                                l = f.read(BUFFER_SIZE)
+                                if not l:
+                                    f.close()
+                                    break
                 break
                 
 except KeyboardInterrupt:
