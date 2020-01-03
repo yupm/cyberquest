@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import socket
+from socket import error as SocketError
 import sys
 
 HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
@@ -47,7 +48,7 @@ try:
                     break
                     
                 except SocketError as e:
-                    break
+                    pass
 
 except KeyboardInterrupt:
     print("Closing Connection")
