@@ -4,6 +4,7 @@ apt_install_updates() {
   apt-get update
   echo "[$(date +%H:%M:%S)]: Running apt-get upgrade..."
   apt-get upgrade
+
 }
 
 scenarioCreate() { 
@@ -15,6 +16,13 @@ scenarioCreate() {
         "$scriptPath"
     done
     
+}
+
+PermissionChanges() {
+      echo "[$(date +%H:%M:%S)]: Changing home directories permissions..."
+      sudo chown root:root /home/*
+      echo "[$(date +%H:%M:%S)]: Changing tmp permissions..."
+      sudo chmod 773 /tmp
 }
 
 main() {
