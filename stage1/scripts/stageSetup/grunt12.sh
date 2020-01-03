@@ -9,13 +9,13 @@ create_scene() {
 
 scene1() {
     #create a bash script to run in /var/scripts/grunt13, create a tmp file with an empty text file for the password to echo in.
-    #Let the Cronjob run
+    #run the given script
 
     create_user
     create_scene
     mkdir /var/grunt13/
     cp /shared/dataGrunt12/gruntRun13.sh /var/grunt13/
-    (crontab -l 2>/dev/null; echo "* * * * *   grunt13 /var/grunt13/gruntRun13.sh > /dev/null") | crontab -
+    #(crontab -l 2>/dev/null; echo "* * * * *   grunt13 /var/grunt13/gruntRun13.sh > /dev/null") | crontab -
     #sudo cp /shared/dataGrunt12/crontab /etc/crontab
     mkdir -p /var/scripts/grunt13
     mkdir /etc/grunt_password/
