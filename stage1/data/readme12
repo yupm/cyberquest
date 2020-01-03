@@ -1,6 +1,6 @@
 
 We found out that a script named gruntRun13.sh has special abilities and it runs when you call it.
- Quick, use it for your own advantage!
+Quick, use it for your own advantage! Apparently there is a password file name grunt13.txt somewhere.
 
  Tools:
  bash script, nano, cd, ls, find, grep
