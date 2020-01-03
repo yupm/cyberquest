@@ -4,11 +4,13 @@ create_user() {
 }
 
 create_scene() {
-    cp /shared/readme12 /home/grunt12/readme
+    cp /shared/readmeFiles/readme12 /home/grunt12/readme
 }
 
 scene1() {
-    
+    create_user
+    create_scene
+
     cp /shared/dataGrunt12QRCode.png /home/grunt12/code.png
     
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 12 has been setup correctly!"
