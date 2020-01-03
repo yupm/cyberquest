@@ -3,7 +3,7 @@
 import socket
 import sys
 
-HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+HOST = '0.0.0.0'  # Standard loopback interface address (localhost)
 PORT = 30000        # Port to listen on 
 GRUNT8 = "{PROTECT_WORLD_PEACE}"
 
