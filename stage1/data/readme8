@@ -1,5 +1,7 @@
 Netcat is a network swiss army knife. Cut and slice smoothly.
-Copy the server's reply to a text file and use it to ssh to the next level.
+
+Find the correct port and give it the current password.
+Surprises is what you will recieve, use it well to enter the next challenge.  
 
 Tools:
-netcat, ssh, 
+netcat, ssh, nmap
