@@ -7,6 +7,11 @@ apt_install_updates() {
 
 }
 
+harden_box(){
+    echo "Hardening box permissions"
+    sed -i 's/DIR_MODE=0755/DIR_MODE=0500/' /etc/adduser.conf
+}
+
 scenarioCreate() { 
     files=$(ls /scripts/stageSetup/ | sort -V)
     for f in $files
@@ -19,13 +24,12 @@ scenarioCreate() {
 }
 
 PermissionChanges() {
-      echo "[$(date +%H:%M:%S)]: Changing home directories permissions..."
-      sudo chown root:root /home/*
       echo "[$(date +%H:%M:%S)]: Changing tmp permissions..."
       sudo chmod 2773 /tmp
 }
 
 main() {
+    harden_box
     scenarioCreate  
     PermissionChanges
 }
