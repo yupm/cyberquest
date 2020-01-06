@@ -1,3 +1,5 @@
+## Solution for Grunt 17 #
+
 This challenge uses Google Maps and a website for reference to get the password
 
 When we cat the file, we get to see the following,
@@ -9,6 +11,8 @@ When we cat the file, we get to see the following,
 pi pi pi pi pi pi pi pi pi pi pika pipi pi pipi pi pi pi pipi pi pi pi pi pi pi pi pipi pi pi pi pi pi pi pi pi pi pi pichu pichu pichu pichu ka chu pipi pipi pipi pipi pi pi pi pi pikachu pi pi pi pi pi pi pi pi pi pi pi pi pikachu pikachu ka ka ka ka pikachu pi pi pi pikachu pichu ka ka ka ka ka ka ka ka ka ka ka ka pikachu ka ka ka ka ka ka ka ka ka ka ka pikachu pikachu pipi ka ka ka ka ka ka ka ka ka ka ka ka ka ka ka ka ka pikachu pi pi pi pi pi pi pi pikachu pi pi pi pi pi pi pi pi pi pi pi pikachu pichu ka pikachu pipi ka ka ka ka ka ka ka ka pikachu pi pi pi pi pi pi pi pi pi pi pi pi pi pikachu pichu pi pikachu pi pi pi pikachu pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pikachu pi pi pi pi pi pikachu pipi ka ka ka ka ka ka ka ka ka ka ka ka ka pikachu pichu pichu pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pikachu pipi pikachu pichu ka pikachu 
 
 The first 3 lines are coordinates that we can input into Google Maps. While the whole other string of texts seems to be translated into something Pikachu can say and understand.
+
+### To get the flag
 
 1) Lets put the coordinates into Maps
 
@@ -44,3 +48,6 @@ The first 3 lines are coordinates that we can input into Google Maps. While the 
         {UNOVA_SINNOH_ALOLA}
     
      Which is our password
+
+## Flag
+{NOT_MY_PIKACHU}

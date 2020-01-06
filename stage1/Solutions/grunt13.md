@@ -1,3 +1,5 @@
+## Solution for Grunt 13 #
+
 This challenge has 4 files in place.
 
 1) plaintext.txt - text that has been encoded with Vigenere Cipher
@@ -10,6 +12,8 @@ Every encoding that was done uses the same settings.
 Deciphering plaintext.txt and cipher.txt's shifting will allow you to shift password.txt back 1 cipher.
 
 In image.png, "The key is this TV series" indicates that the key for Vigenere Cipher is pokemon.
+
+### To get the flag
 
 With all these clues in place, lets try solving this without using websites like www.cryptii.com
 
@@ -52,3 +56,6 @@ With all these clues in place, lets try solving this without using websites like
     Another way is to use www.cryptii.com, which is kinda the lame way.
 
     It does not matter if Vigenere Cipher or Caesar Cipher is being decoded first, the password will still be revealed.
+
+## Flag
+{WE_WANT_PIKACHU}

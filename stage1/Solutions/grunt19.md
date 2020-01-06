@@ -1,3 +1,7 @@
+## Solution for Grunt 19 #
+
+### To get the flag
+
 The .png file is actually a text file, with its extension changed. Change back the image file's extension to .txt and you will be able to view an encode string.
     aHR0cHM6Ly95b3V0dS5iZS9GZ2hNNDJXWjhtaw==
 
@@ -15,3 +19,6 @@ Download the reversed soundtrack and play it. It will say
     /audio/grunt/data.txt
 
 Going to this path will reveal the password.
+
+## Flag
+{A_SHOCKED_PIKACHU}
