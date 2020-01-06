@@ -1,1 +1,0 @@
-The string has been encoded twice with 2 different methods, base64 and ROT13
