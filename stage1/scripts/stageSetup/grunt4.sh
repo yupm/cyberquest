@@ -16,8 +16,8 @@ scene1() {
     sudo cp /shared/dataGrunt4.txt /etc/isThisIt/imhere
     sudo chown grunt4:grunt4 /etc/isThisIt/imhere
     sudo chown grunt4:grunt4 /etc/isThisIt/imhere
-    sudo chmod 774 /etc/isThisIt/imhere
-    sudo chmod 774 /etc/isThisIt
+    sudo chmod 555 /etc/isThisIt/imhere
+    sudo chmod 555 /etc/isThisIt
 
     echo "[$(date +%H:%M:%S)]: Stage 1 Scenario 4 has been setup correctly!"
 }
