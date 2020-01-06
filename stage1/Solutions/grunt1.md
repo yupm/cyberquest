@@ -1,9 +1,23 @@
+## Solution for Grunt 1
+
 The text file has a dash infront and spacing between each word of the name.
 
-In order to read the file using the terminal, we can use "cat" with "--" after it to 
-let the terminal know that no options are being selected.
+### To get the flag
 
-To read the file, run the following command,
-    cat -- -Jessie\ was\ here
-    OR
-    cat -- "-Jessie was here"
+To read the file in the terminal, make use of 'cat' command
+
+```
+cat -- -Jessie\ was\ here
+```
+
+OR
+
+```
+cat -- "-Jessie was here"
+```
+
+## Flag
+
+```
+{JESSIE_AND_JAMES}
+```
