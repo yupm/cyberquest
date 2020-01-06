@@ -1,8 +1,23 @@
+## Solution for Grunt 2
+
 This challenge has a hidden file in the directory. The directory tryHere is just a distraction as there is nothing inside.
 
-The file is placed in the user's directory. In order to see the file, we can run the following command,
-    ls -all
+### To get the flag
 
-The hidden file named .ImHere will show up as a result.
+The file is placed in the user's directory. In order to see the file, we can run the following command 
 
-cat the file once again to view the password.
+```
+ls -all
+```
+
+'cat' the hidden file named .ImHere to get the password for the next level
+
+```
+cat .ImHere
+```
+
+##Flag
+
+```
+{SURRENDER_NOW}
+```
