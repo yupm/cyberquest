@@ -13,4 +13,4 @@ You should see the following cookie,
 Insert /grunt12Password.html behind the end of the URL and it will bring you to the password
 
 ## Flag
-{IM_BROCK_LEE}
+{PIKACHU_AND_ASH}

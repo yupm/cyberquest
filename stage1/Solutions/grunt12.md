@@ -17,4 +17,4 @@ These 3 rows of value will spell out
     https://justpaste.it/msDirection
 
 ## Flag
-{PIKACHU_AND_ASH}
+{WE_WANT_PIKACHU}

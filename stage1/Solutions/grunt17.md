@@ -50,4 +50,4 @@ The first 3 lines are coordinates that we can input into Google Maps. While the 
      Which is our password
 
 ## Flag
-{NOT_MY_PIKACHU}
+{UNOVA_SINNOH_ALOLA}

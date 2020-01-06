@@ -12,4 +12,4 @@ In the text file there is a text page that is disallowed by the robots.txt, whic
 By typing /qazxswedcvfrtgb.txt at the end of the URL will bring you to the password
 
 ## Flag
-{TRAIL_OF_FAILURE}
+{IM_BROCK_LEE}

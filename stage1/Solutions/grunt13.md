@@ -58,4 +58,4 @@ With all these clues in place, lets try solving this without using websites like
     It does not matter if Vigenere Cipher or Caesar Cipher is being decoded first, the password will still be revealed.
 
 ## Flag
-{WE_WANT_PIKACHU}
+{GYM_LEADER_ADRIAN}

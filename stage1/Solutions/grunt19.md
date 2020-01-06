@@ -21,4 +21,4 @@ Download the reversed soundtrack and play it. It will say
 Going to this path will reveal the password.
 
 ## Flag
-{A_SHOCKED_PIKACHU}
+{ALMOST_WON_TEAM_ROCKET}

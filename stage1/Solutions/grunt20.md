@@ -9,4 +9,4 @@ Cat the file, go to the youtube link
 The password is the title of the video
 
 ## Flag
-{ALMOST_WON_TEAM_ROCKET}
+{TEAM_ROCKET_BLASTING_OFF_AGAIN}
