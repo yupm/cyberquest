@@ -8,7 +8,7 @@ create_scene() {
 }
 
 scene1() {
-    # hidden file + somewhere in file system + owned by user grunt4 + size of file
+    # hidden file + somewhere in file system + owned by user and group grunt4 + size of file
 
     create_user
     create_scene
