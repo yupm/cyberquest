@@ -29,6 +29,7 @@ PermissionChanges() {
 }
 
 ssh_changes() {
+      echo "[$(date +%H:%M:%S)]: Changing ssh configurations..."
       # Change Login Message
       sudo mv /shared/motd /etc
       # Change SSH Banner
