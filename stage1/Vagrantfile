@@ -6,10 +6,10 @@ Vagrant.configure("2") do |config|
       cfg.vm.synced_folder '.', '/vagrant', disabled: true
       cfg.vm.synced_folder "data", "/shared", 
         :group => "root",
-        mount_options: ["fmode=770", "dmode=770"]
+        mount_options: ["fmode=774", "dmode=770"]
       cfg.vm.synced_folder "scripts", "/scripts", 
         :group => "root",
-        mount_options: ["fmode=770", "dmode=770"]
+        mount_options: ["fmode=774", "dmode=770"]
 
       cfg.vm.provision "ansible" do |ansible|
         ansible.playbook = "playbook.yml"
