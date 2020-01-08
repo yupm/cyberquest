@@ -37,6 +37,8 @@ ssh_changes() {
       echo "Banner /etc/ssh_banner" >> /etc/ssh/sshd_config
       # Remove the viewing of system info when login with ssh
       sudo chmod -x /etc/update-motd.d/*
+      # Remove the vewing of legal notice
+      sudo chmod -r /etc/legal
       # Restart ssh service
       sudo systemctl restart sshd
 }
