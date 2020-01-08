@@ -31,9 +31,9 @@ PermissionChanges() {
 ssh_changes() {
       echo "[$(date +%H:%M:%S)]: Changing ssh configurations..."
       # Change Login Message
-      sudo mv /shared/motd /etc
+      sudo cp /shared/motd /etc
       # Change SSH Banner
-      sudo mv /shared/ssh_banner /etc
+      sudo cp /shared/ssh_banner /etc
       echo "Banner /etc/ssh_banner" >> /etc/ssh/sshd_config
       # Remove the viewing of system info when login with ssh
       sudo chmod -x /etc/update-motd.d/*
